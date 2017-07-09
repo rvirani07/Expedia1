@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Expedia_Suite">
+              <span class="suite-name border-passed">Expedia Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Expedia_Suite">
+                    <span>C:\Users\Rahul\workspace\Expedia1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Expedia_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Expedia_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Expedia_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Expedia_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Expedia_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Expedia_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Expedia_Suite" class="hide-methods passed suite-Expedia_Suite"> (hide)</a> <!-- hide-methods passed suite-Expedia_Suite -->
+                      <a href="#" panel-name="suite-Expedia_Suite" class="show-methods passed suite-Expedia_Suite"> (show)</a> <!-- show-methods passed suite-Expedia_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Expedia_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="TestCountSearchResults">TestCountSearchResults</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="pickLapOrSeat(lap)">pickLapOrSeat(lap)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="takeOptionsSnapshot(./test-output/searchOptions.png)">takeOptionsSnapshot(./test-output/searchOptions.png)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="takeResultsSnapShot(./test-output/searchResults.png)">takeResultsSnapShot(./test-output/searchResults.png)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testClearFlightDestination">testClearFlightDestination</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testClearFlightOrigin">testClearFlightOrigin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testClickAdvancedOptionsLink">testClickAdvancedOptionsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testClickFlightsLink">testClickFlightsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testClickSearchButton">testClickSearchButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testPickFlightDepartingDate">testPickFlightDepartingDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testPickFlightDestination(n)">testPickFlightDestination(n)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testPickFlightOrigin(s)">testPickFlightOrigin(s)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testPickFlightReturningDate">testPickFlightReturningDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testPickKid1Age(1)">testPickKid1Age(1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testPickKid2Age(3)">testPickKid2Age(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testPickKid3Age(3)">testPickKid3Age(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testPickKid4Age(5)">testPickKid4Age(5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testPickNumberofAdults(2)">testPickNumberofAdults(2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testPickNumberofKids(4)">testPickNumberofKids(4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testSelectNonStopFlight">testSelectNonStopFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testSelectPreferredAirline(DL)">testSelectPreferredAirline(DL)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testSelectPreferredAirlineClass(business)">testSelectPreferredAirlineClass(business)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Suite" title="com.test.FlightsPageTest" hash-for-method="testSelectRefundableFlight">testSelectRefundableFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Expedia_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Expedia_Suite" class="panel Expedia_Suite">
+          <div class="suite-Expedia_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.FlightsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCountSearchResults">
+                  </a> <!-- TestCountSearchResults -->
+                  <span class="method-name">TestCountSearchResults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pickLapOrSeat(lap)">
+                  </a> <!-- pickLapOrSeat(lap) -->
+                  <span class="method-name">pickLapOrSeat</span>
+                  <span class="parameters">(lap)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="takeOptionsSnapshot(./test-output/searchOptions.png)">
+                  </a> <!-- takeOptionsSnapshot(./test-output/searchOptions.png) -->
+                  <span class="method-name">takeOptionsSnapshot</span>
+                  <span class="parameters">(./test-output/searchOptions.png)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="takeResultsSnapShot(./test-output/searchResults.png)">
+                  </a> <!-- takeResultsSnapShot(./test-output/searchResults.png) -->
+                  <span class="method-name">takeResultsSnapShot</span>
+                  <span class="parameters">(./test-output/searchResults.png)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClearFlightDestination">
+                  </a> <!-- testClearFlightDestination -->
+                  <span class="method-name">testClearFlightDestination</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClearFlightOrigin">
+                  </a> <!-- testClearFlightOrigin -->
+                  <span class="method-name">testClearFlightOrigin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickAdvancedOptionsLink">
+                  </a> <!-- testClickAdvancedOptionsLink -->
+                  <span class="method-name">testClickAdvancedOptionsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickFlightsLink">
+                  </a> <!-- testClickFlightsLink -->
+                  <span class="method-name">testClickFlightsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickSearchButton">
+                  </a> <!-- testClickSearchButton -->
+                  <span class="method-name">testClickSearchButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPickFlightDepartingDate">
+                  </a> <!-- testPickFlightDepartingDate -->
+                  <span class="method-name">testPickFlightDepartingDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPickFlightDestination(n)">
+                  </a> <!-- testPickFlightDestination(n) -->
+                  <span class="method-name">testPickFlightDestination</span>
+                  <span class="parameters">(n)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPickFlightOrigin(s)">
+                  </a> <!-- testPickFlightOrigin(s) -->
+                  <span class="method-name">testPickFlightOrigin</span>
+                  <span class="parameters">(s)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPickFlightReturningDate">
+                  </a> <!-- testPickFlightReturningDate -->
+                  <span class="method-name">testPickFlightReturningDate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPickKid1Age(1)">
+                  </a> <!-- testPickKid1Age(1) -->
+                  <span class="method-name">testPickKid1Age</span>
+                  <span class="parameters">(1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPickKid2Age(3)">
+                  </a> <!-- testPickKid2Age(3) -->
+                  <span class="method-name">testPickKid2Age</span>
+                  <span class="parameters">(3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPickKid3Age(3)">
+                  </a> <!-- testPickKid3Age(3) -->
+                  <span class="method-name">testPickKid3Age</span>
+                  <span class="parameters">(3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPickKid4Age(5)">
+                  </a> <!-- testPickKid4Age(5) -->
+                  <span class="method-name">testPickKid4Age</span>
+                  <span class="parameters">(5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPickNumberofAdults(2)">
+                  </a> <!-- testPickNumberofAdults(2) -->
+                  <span class="method-name">testPickNumberofAdults</span>
+                  <span class="parameters">(2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPickNumberofKids(4)">
+                  </a> <!-- testPickNumberofKids(4) -->
+                  <span class="method-name">testPickNumberofKids</span>
+                  <span class="parameters">(4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectNonStopFlight">
+                  </a> <!-- testSelectNonStopFlight -->
+                  <span class="method-name">testSelectNonStopFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectPreferredAirline(DL)">
+                  </a> <!-- testSelectPreferredAirline(DL) -->
+                  <span class="method-name">testSelectPreferredAirline</span>
+                  <span class="parameters">(DL)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectPreferredAirlineClass(business)">
+                  </a> <!-- testSelectPreferredAirlineClass(business) -->
+                  <span class="method-name">testSelectPreferredAirlineClass</span>
+                  <span class="parameters">(business)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectRefundableFlight">
+                  </a> <!-- testSelectRefundableFlight -->
+                  <span class="method-name">testSelectRefundableFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Expedia_Suite-class-passed -->
+        </div> <!-- panel Expedia_Suite -->
+        <div panel-name="test-xml-Expedia_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Rahul\workspace\Expedia1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Expedia Suite&quot;&gt;
+  &lt;test name=&quot;Flights Page&quot;&gt;
+    &lt;parameter name=&quot;origin&quot; value=&quot;s&quot;/&gt;
+    &lt;parameter name=&quot;adults&quot; value=&quot;2&quot;/&gt;
+    &lt;parameter name=&quot;destination&quot; value=&quot;n&quot;/&gt;
+    &lt;parameter name=&quot;airline_class&quot; value=&quot;business&quot;/&gt;
+    &lt;parameter name=&quot;kid4Age&quot; value=&quot;5&quot;/&gt;
+    &lt;parameter name=&quot;kid3Age&quot; value=&quot;3&quot;/&gt;
+    &lt;parameter name=&quot;kid2Age&quot; value=&quot;3&quot;/&gt;
+    &lt;parameter name=&quot;laporseat&quot; value=&quot;lap&quot;/&gt;
+    &lt;parameter name=&quot;resultsFile&quot; value=&quot;./test-output/searchResults.png&quot;/&gt;
+    &lt;parameter name=&quot;kid1Age&quot; value=&quot;1&quot;/&gt;
+    &lt;parameter name=&quot;airline&quot; value=&quot;DL&quot;/&gt;
+    &lt;parameter name=&quot;optionsFile&quot; value=&quot;./test-output/searchOptions.png&quot;/&gt;
+    &lt;parameter name=&quot;kids&quot; value=&quot;4&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.FlightsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Flights Page --&gt;
+&lt;/suite&gt; &lt;!-- Expedia Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Expedia_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Expedia Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Flights Page (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Expedia_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Expedia Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Expedia_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Expedia Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Expedia_Suite');
+function tableData_Expedia_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testClickSearchButton')
+data.setCell(0, 2, 'com.test.FlightsPageTest')
+data.setCell(0, 3, 11840);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testClearFlightDestination')
+data.setCell(1, 2, 'com.test.FlightsPageTest')
+data.setCell(1, 3, 2188);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testClickFlightsLink')
+data.setCell(2, 2, 'com.test.FlightsPageTest')
+data.setCell(2, 3, 1340);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testPickFlightReturningDate')
+data.setCell(3, 2, 'com.test.FlightsPageTest')
+data.setCell(3, 3, 904);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSelectNonStopFlight')
+data.setCell(4, 2, 'com.test.FlightsPageTest')
+data.setCell(4, 3, 828);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'takeOptionsSnapshot')
+data.setCell(5, 2, 'com.test.FlightsPageTest')
+data.setCell(5, 3, 408);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'takeResultsSnapShot')
+data.setCell(6, 2, 'com.test.FlightsPageTest')
+data.setCell(6, 3, 352);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testPickFlightDepartingDate')
+data.setCell(7, 2, 'com.test.FlightsPageTest')
+data.setCell(7, 3, 284);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testPickFlightDestination')
+data.setCell(8, 2, 'com.test.FlightsPageTest')
+data.setCell(8, 3, 280);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testPickKid2Age')
+data.setCell(9, 2, 'com.test.FlightsPageTest')
+data.setCell(9, 3, 270);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testPickFlightOrigin')
+data.setCell(10, 2, 'com.test.FlightsPageTest')
+data.setCell(10, 3, 264);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testPickNumberofAdults')
+data.setCell(11, 2, 'com.test.FlightsPageTest')
+data.setCell(11, 3, 232);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testPickKid1Age')
+data.setCell(12, 2, 'com.test.FlightsPageTest')
+data.setCell(12, 3, 228);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testPickKid4Age')
+data.setCell(13, 2, 'com.test.FlightsPageTest')
+data.setCell(13, 3, 196);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testPickNumberofKids')
+data.setCell(14, 2, 'com.test.FlightsPageTest')
+data.setCell(14, 3, 184);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testPickKid3Age')
+data.setCell(15, 2, 'com.test.FlightsPageTest')
+data.setCell(15, 3, 184);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testSelectRefundableFlight')
+data.setCell(16, 2, 'com.test.FlightsPageTest')
+data.setCell(16, 3, 160);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testClickAdvancedOptionsLink')
+data.setCell(17, 2, 'com.test.FlightsPageTest')
+data.setCell(17, 3, 152);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testSelectPreferredAirline')
+data.setCell(18, 2, 'com.test.FlightsPageTest')
+data.setCell(18, 3, 144);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'pickLapOrSeat')
+data.setCell(19, 2, 'com.test.FlightsPageTest')
+data.setCell(19, 3, 128);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testSelectPreferredAirlineClass')
+data.setCell(20, 2, 'com.test.FlightsPageTest')
+data.setCell(20, 3, 128);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testClearFlightOrigin')
+data.setCell(21, 2, 'com.test.FlightsPageTest')
+data.setCell(21, 3, 96);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TestCountSearchResults')
+data.setCell(22, 2, 'com.test.FlightsPageTest')
+data.setCell(22, 3, 60);
+window.suiteTableData['Expedia_Suite']= { tableData: data, tableDiv: 'times-div-Expedia_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <div id="times-div-Expedia_Suite">
+              </div> <!-- times-div-Expedia_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Expedia_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Expedia Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Expedia_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.test.FlightsPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">clickBellPopup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Expedia_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.FlightsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">19602 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testClickFlightsLink</span>
+                <span class="method-start">19610 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testClickFlightsLink status=SUCCESS method=FlightsPageTest.testClickFlightsLink()[p...)</span>
+                <span class="method-start">20950 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testClearFlightDestination</span>
+                <span class="method-start">21894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testClearFlightDestination status=SUCCESS method=FlightsPageTest.testClearFlightDes...)</span>
+                <span class="method-start">24082 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testClearFlightOrigin</span>
+                <span class="method-start">24170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testClearFlightOrigin status=SUCCESS method=FlightsPageTest.testClearFlightOrigin()...)</span>
+                <span class="method-start">24266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testPickFlightDepartingDate</span>
+                <span class="method-start">24358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testPickFlightDepartingDate status=SUCCESS method=FlightsPageTest.testPickFlightDep...)</span>
+                <span class="method-start">24642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testPickFlightDestination(n)</span>
+                <span class="method-start">24702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testPickFlightDestination status=SUCCESS method=FlightsPageTest.testPickFlightDesti...)</span>
+                <span class="method-start">24982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testPickFlightOrigin(s)</span>
+                <span class="method-start">25054 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testPickFlightOrigin status=SUCCESS method=FlightsPageTest.testPickFlightOrigin(jav...)</span>
+                <span class="method-start">25318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testPickFlightReturningDate</span>
+                <span class="method-start">25378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testPickFlightReturningDate status=SUCCESS method=FlightsPageTest.testPickFlightRet...)</span>
+                <span class="method-start">26282 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testPickNumberofAdults(2)</span>
+                <span class="method-start">26474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testPickNumberofAdults status=SUCCESS method=FlightsPageTest.testPickNumberofAdults...)</span>
+                <span class="method-start">26706 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testPickNumberofKids(4)</span>
+                <span class="method-start">26746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testPickNumberofKids status=SUCCESS method=FlightsPageTest.testPickNumberofKids(int...)</span>
+                <span class="method-start">26930 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testPickKid1Age(1)</span>
+                <span class="method-start">26974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testPickKid1Age status=SUCCESS method=FlightsPageTest.testPickKid1Age(int)[pri:3, i...)</span>
+                <span class="method-start">27202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testPickKid2Age(3)</span>
+                <span class="method-start">27242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testPickKid2Age status=SUCCESS method=FlightsPageTest.testPickKid2Age(int)[pri:3, i...)</span>
+                <span class="method-start">27512 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testPickKid3Age(3)</span>
+                <span class="method-start">27556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testPickKid3Age status=SUCCESS method=FlightsPageTest.testPickKid3Age(int)[pri:3, i...)</span>
+                <span class="method-start">27740 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testPickKid4Age(5)</span>
+                <span class="method-start">27776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testPickKid4Age status=SUCCESS method=FlightsPageTest.testPickKid4Age(int)[pri:3, i...)</span>
+                <span class="method-start">27972 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">pickLapOrSeat(lap)</span>
+                <span class="method-start">28016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=pickLapOrSeat status=SUCCESS method=FlightsPageTest.pickLapOrSeat(java.lang.String)...)</span>
+                <span class="method-start">28144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testClickAdvancedOptionsLink</span>
+                <span class="method-start">28188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testClickAdvancedOptionsLink status=SUCCESS method=FlightsPageTest.testClickAdvance...)</span>
+                <span class="method-start">28340 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectNonStopFlight</span>
+                <span class="method-start">28380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testSelectNonStopFlight status=SUCCESS method=FlightsPageTest.testSelectNonStopFlig...)</span>
+                <span class="method-start">29208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectPreferredAirline(DL)</span>
+                <span class="method-start">29272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testSelectPreferredAirline status=SUCCESS method=FlightsPageTest.testSelectPreferre...)</span>
+                <span class="method-start">29416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectPreferredAirlineClass(business)</span>
+                <span class="method-start">29480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testSelectPreferredAirlineClass status=SUCCESS method=FlightsPageTest.testSelectPre...)</span>
+                <span class="method-start">29608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSelectRefundableFlight</span>
+                <span class="method-start">29640 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testSelectRefundableFlight status=SUCCESS method=FlightsPageTest.testSelectRefundab...)</span>
+                <span class="method-start">29800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">takeOptionsSnapshot(./test-output/searchOptions.png)</span>
+                <span class="method-start">29828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=takeOptionsSnapshot status=SUCCESS method=FlightsPageTest.takeOptionsSnapshot(java....)</span>
+                <span class="method-start">30236 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testClickSearchButton</span>
+                <span class="method-start">30304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=testClickSearchButton status=SUCCESS method=FlightsPageTest.testClickSearchButton()...)</span>
+                <span class="method-start">42144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">TestCountSearchResults</span>
+                <span class="method-start">42204 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=TestCountSearchResults status=SUCCESS method=FlightsPageTest.TestCountSearchResults...)</span>
+                <span class="method-start">42264 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">takeResultsSnapShot(./test-output/searchResults.png)</span>
+                <span class="method-start">42300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">updateTestResult([TestResult name=takeResultsSnapShot status=SUCCESS method=FlightsPageTest.takeResultsSnapShot(java....)</span>
+                <span class="method-start">42656 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">42796 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">44364 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

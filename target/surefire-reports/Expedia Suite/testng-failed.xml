@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Expedia Suite]">
+  <parameter name="origin" value="s"/>
+  <parameter name="adults" value="2"/>
+  <parameter name="destination" value="n"/>
+  <parameter name="airline_class" value="business"/>
+  <parameter name="kid4Age" value="5"/>
+  <parameter name="kid3Age" value="3"/>
+  <parameter name="kid2Age" value="3"/>
+  <parameter name="laporseat" value="lap"/>
+  <parameter name="resultsFile" value="./test-output/searchResults.png"/>
+  <parameter name="kid1Age" value="1"/>
+  <parameter name="airline" value="DL"/>
+  <parameter name="optionsFile" value="./test-output/searchOptions.png"/>
+  <parameter name="kids" value="4"/>
+  <test name="Flights Page">
+    <parameter name="origin" value="s"/>
+    <parameter name="adults" value="2"/>
+    <parameter name="destination" value="n"/>
+    <parameter name="airline_class" value="business"/>
+    <parameter name="kid4Age" value="5"/>
+    <parameter name="kid3Age" value="3"/>
+    <parameter name="kid2Age" value="3"/>
+    <parameter name="laporseat" value="lap"/>
+    <parameter name="resultsFile" value="./test-output/searchResults.png"/>
+    <parameter name="kid1Age" value="1"/>
+    <parameter name="airline" value="DL"/>
+    <parameter name="optionsFile" value="./test-output/searchOptions.png"/>
+    <parameter name="kids" value="4"/>
+    <classes>
+      <class name="com.test.FlightsPageTest"/>
+    </classes>
+  </test> <!-- Flights Page -->
+</suite> <!-- Failed suite [Expedia Suite] -->

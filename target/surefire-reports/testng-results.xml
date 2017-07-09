@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="23" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Expedia Suite" duration-ms="24746" started-at="2017-07-09T19:12:12Z" finished-at="2017-07-09T19:12:36Z">
+    <groups>
+    </groups>
+    <test name="Flights Page" duration-ms="24746" started-at="2017-07-09T19:12:12Z" finished-at="2017-07-09T19:12:36Z">
+      <class name="com.test.FlightsPageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="beforeSuite" is-config="true" duration-ms="19590" started-at="2017-07-09T15:11:52Z" finished-at="2017-07-09T15:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="beforeClass" is-config="true" duration-ms="4" started-at="2017-07-09T15:12:12Z" finished-at="2017-07-09T15:12:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testClickFlightsLink()[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="testClickFlightsLink" duration-ms="1340" started-at="2017-07-09T15:12:12Z" finished-at="2017-07-09T15:12:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickFlightsLink -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="944" started-at="2017-07-09T15:12:13Z" finished-at="2017-07-09T15:12:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickFlightsLink status=SUCCESS method=FlightsPageTest.testClickFlightsLink()[pri:0, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testClearFlightDestination()[pri:1, instance:com.test.FlightsPageTest@6276ae34]" name="testClearFlightDestination" duration-ms="2188" started-at="2017-07-09T15:12:14Z" finished-at="2017-07-09T15:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearFlightDestination -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="88" started-at="2017-07-09T15:12:16Z" finished-at="2017-07-09T15:12:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClearFlightDestination status=SUCCESS method=FlightsPageTest.testClearFlightDestination()[pri:1, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testClearFlightOrigin()[pri:1, instance:com.test.FlightsPageTest@6276ae34]" name="testClearFlightOrigin" duration-ms="96" started-at="2017-07-09T15:12:16Z" finished-at="2017-07-09T15:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearFlightOrigin -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="92" started-at="2017-07-09T15:12:16Z" finished-at="2017-07-09T15:12:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClearFlightOrigin status=SUCCESS method=FlightsPageTest.testClearFlightOrigin()[pri:1, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testPickFlightDepartingDate()[pri:2, instance:com.test.FlightsPageTest@6276ae34]" name="testPickFlightDepartingDate" duration-ms="284" started-at="2017-07-09T15:12:16Z" finished-at="2017-07-09T15:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPickFlightDepartingDate -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="56" started-at="2017-07-09T15:12:17Z" finished-at="2017-07-09T15:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPickFlightDepartingDate status=SUCCESS method=FlightsPageTest.testPickFlightDepartingDate()[pri:2, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testPickFlightDestination(java.lang.String)[pri:2, instance:com.test.FlightsPageTest@6276ae34]" name="testPickFlightDestination" duration-ms="280" started-at="2017-07-09T15:12:17Z" finished-at="2017-07-09T15:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPickFlightDestination -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="72" started-at="2017-07-09T15:12:17Z" finished-at="2017-07-09T15:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPickFlightDestination status=SUCCESS method=FlightsPageTest.testPickFlightDestination(java.lang.String)[pri:2, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testPickFlightOrigin(java.lang.String)[pri:2, instance:com.test.FlightsPageTest@6276ae34]" name="testPickFlightOrigin" duration-ms="264" started-at="2017-07-09T15:12:17Z" finished-at="2017-07-09T15:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPickFlightOrigin -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="60" started-at="2017-07-09T15:12:17Z" finished-at="2017-07-09T15:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPickFlightOrigin status=SUCCESS method=FlightsPageTest.testPickFlightOrigin(java.lang.String)[pri:2, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testPickFlightReturningDate()[pri:2, instance:com.test.FlightsPageTest@6276ae34]" name="testPickFlightReturningDate" duration-ms="904" started-at="2017-07-09T15:12:17Z" finished-at="2017-07-09T15:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPickFlightReturningDate -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="192" started-at="2017-07-09T15:12:18Z" finished-at="2017-07-09T15:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPickFlightReturningDate status=SUCCESS method=FlightsPageTest.testPickFlightReturningDate()[pri:2, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testPickNumberofAdults(int)[pri:2, instance:com.test.FlightsPageTest@6276ae34]" name="testPickNumberofAdults" duration-ms="232" started-at="2017-07-09T15:12:18Z" finished-at="2017-07-09T15:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPickNumberofAdults -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="40" started-at="2017-07-09T15:12:19Z" finished-at="2017-07-09T15:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPickNumberofAdults status=SUCCESS method=FlightsPageTest.testPickNumberofAdults(int)[pri:2, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testPickNumberofKids(int)[pri:2, instance:com.test.FlightsPageTest@6276ae34]" name="testPickNumberofKids" duration-ms="184" started-at="2017-07-09T15:12:19Z" finished-at="2017-07-09T15:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPickNumberofKids -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="44" started-at="2017-07-09T15:12:19Z" finished-at="2017-07-09T15:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPickNumberofKids status=SUCCESS method=FlightsPageTest.testPickNumberofKids(int)[pri:2, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testPickKid1Age(int)[pri:3, instance:com.test.FlightsPageTest@6276ae34]" name="testPickKid1Age" duration-ms="228" started-at="2017-07-09T15:12:19Z" finished-at="2017-07-09T15:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPickKid1Age -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="40" started-at="2017-07-09T15:12:19Z" finished-at="2017-07-09T15:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPickKid1Age status=SUCCESS method=FlightsPageTest.testPickKid1Age(int)[pri:3, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testPickKid2Age(int)[pri:3, instance:com.test.FlightsPageTest@6276ae34]" name="testPickKid2Age" duration-ms="270" started-at="2017-07-09T15:12:19Z" finished-at="2017-07-09T15:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPickKid2Age -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="44" started-at="2017-07-09T15:12:20Z" finished-at="2017-07-09T15:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPickKid2Age status=SUCCESS method=FlightsPageTest.testPickKid2Age(int)[pri:3, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testPickKid3Age(int)[pri:3, instance:com.test.FlightsPageTest@6276ae34]" name="testPickKid3Age" duration-ms="184" started-at="2017-07-09T15:12:20Z" finished-at="2017-07-09T15:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPickKid3Age -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="36" started-at="2017-07-09T15:12:20Z" finished-at="2017-07-09T15:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPickKid3Age status=SUCCESS method=FlightsPageTest.testPickKid3Age(int)[pri:3, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testPickKid4Age(int)[pri:3, instance:com.test.FlightsPageTest@6276ae34]" name="testPickKid4Age" duration-ms="196" started-at="2017-07-09T15:12:20Z" finished-at="2017-07-09T15:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPickKid4Age -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="44" started-at="2017-07-09T15:12:20Z" finished-at="2017-07-09T15:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPickKid4Age status=SUCCESS method=FlightsPageTest.testPickKid4Age(int)[pri:3, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="pickLapOrSeat(java.lang.String)[pri:4, instance:com.test.FlightsPageTest@6276ae34]" name="pickLapOrSeat" duration-ms="128" started-at="2017-07-09T15:12:20Z" finished-at="2017-07-09T15:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lap]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pickLapOrSeat -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="40" started-at="2017-07-09T15:12:20Z" finished-at="2017-07-09T15:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pickLapOrSeat status=SUCCESS method=FlightsPageTest.pickLapOrSeat(java.lang.String)[pri:4, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testClickAdvancedOptionsLink()[pri:4, instance:com.test.FlightsPageTest@6276ae34]" name="testClickAdvancedOptionsLink" duration-ms="152" started-at="2017-07-09T15:12:20Z" finished-at="2017-07-09T15:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickAdvancedOptionsLink -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="40" started-at="2017-07-09T15:12:20Z" finished-at="2017-07-09T15:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickAdvancedOptionsLink status=SUCCESS method=FlightsPageTest.testClickAdvancedOptionsLink()[pri:4, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testSelectNonStopFlight()[pri:4, instance:com.test.FlightsPageTest@6276ae34]" name="testSelectNonStopFlight" duration-ms="828" started-at="2017-07-09T15:12:20Z" finished-at="2017-07-09T15:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectNonStopFlight -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="64" started-at="2017-07-09T15:12:21Z" finished-at="2017-07-09T15:12:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectNonStopFlight status=SUCCESS method=FlightsPageTest.testSelectNonStopFlight()[pri:4, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testSelectPreferredAirline(java.lang.String)[pri:4, instance:com.test.FlightsPageTest@6276ae34]" name="testSelectPreferredAirline" duration-ms="144" started-at="2017-07-09T15:12:21Z" finished-at="2017-07-09T15:12:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectPreferredAirline -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="60" started-at="2017-07-09T15:12:21Z" finished-at="2017-07-09T15:12:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectPreferredAirline status=SUCCESS method=FlightsPageTest.testSelectPreferredAirline(java.lang.String)[pri:4, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testSelectPreferredAirlineClass(java.lang.String)[pri:4, instance:com.test.FlightsPageTest@6276ae34]" name="testSelectPreferredAirlineClass" duration-ms="128" started-at="2017-07-09T15:12:21Z" finished-at="2017-07-09T15:12:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[business]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectPreferredAirlineClass -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="32" started-at="2017-07-09T15:12:22Z" finished-at="2017-07-09T15:12:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectPreferredAirlineClass status=SUCCESS method=FlightsPageTest.testSelectPreferredAirlineClass(java.lang.String)[pri:4, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testSelectRefundableFlight()[pri:4, instance:com.test.FlightsPageTest@6276ae34]" name="testSelectRefundableFlight" duration-ms="160" started-at="2017-07-09T15:12:22Z" finished-at="2017-07-09T15:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectRefundableFlight -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="28" started-at="2017-07-09T15:12:22Z" finished-at="2017-07-09T15:12:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectRefundableFlight status=SUCCESS method=FlightsPageTest.testSelectRefundableFlight()[pri:4, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="takeOptionsSnapshot(java.lang.String)[pri:5, instance:com.test.FlightsPageTest@6276ae34]" name="takeOptionsSnapshot" duration-ms="408" started-at="2017-07-09T15:12:22Z" finished-at="2017-07-09T15:12:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[./test-output/searchOptions.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeOptionsSnapshot -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="68" started-at="2017-07-09T15:12:22Z" finished-at="2017-07-09T15:12:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=takeOptionsSnapshot status=SUCCESS method=FlightsPageTest.takeOptionsSnapshot(java.lang.String)[pri:5, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="testClickSearchButton()[pri:6, instance:com.test.FlightsPageTest@6276ae34]" name="testClickSearchButton" duration-ms="11840" started-at="2017-07-09T15:12:22Z" finished-at="2017-07-09T15:12:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSearchButton -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="60" started-at="2017-07-09T15:12:34Z" finished-at="2017-07-09T15:12:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testClickSearchButton status=SUCCESS method=FlightsPageTest.testClickSearchButton()[pri:6, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="TestCountSearchResults()[pri:7, instance:com.test.FlightsPageTest@6276ae34]" name="TestCountSearchResults" duration-ms="60" started-at="2017-07-09T15:12:34Z" finished-at="2017-07-09T15:12:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCountSearchResults -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="36" started-at="2017-07-09T15:12:34Z" finished-at="2017-07-09T15:12:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCountSearchResults status=SUCCESS method=FlightsPageTest.TestCountSearchResults()[pri:7, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="takeResultsSnapShot(java.lang.String)[pri:7, instance:com.test.FlightsPageTest@6276ae34]" name="takeResultsSnapShot" duration-ms="352" started-at="2017-07-09T15:12:34Z" finished-at="2017-07-09T15:12:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[./test-output/searchResults.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeResultsSnapShot -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="updateTestResult" is-config="true" duration-ms="140" started-at="2017-07-09T15:12:35Z" finished-at="2017-07-09T15:12:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=takeResultsSnapShot status=SUCCESS method=FlightsPageTest.takeResultsSnapShot(java.lang.String)[pri:7, instance:com.test.FlightsPageTest@6276ae34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="closeBrowser" is-config="true" duration-ms="1540" started-at="2017-07-09T15:12:35Z" finished-at="2017-07-09T15:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.test.FlightsPageTest@6276ae34]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-07-09T15:12:36Z" finished-at="2017-07-09T15:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.test.FlightsPageTest -->
+    </test> <!-- Flights Page -->
+  </suite> <!-- Expedia Suite -->
+</testng-results>
